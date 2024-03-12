@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* FONTS */
+.ft-14 {
+  font-size: 14px !important;
+}
+
+.ft-12 {
+  font-size: 12px !important;
+}
+
+/* BUTTON */
+.justify-content-space {
+  justify-content: space-between !important;
+}
+
+/* FOOTER */
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  background: #cacaca;
+  width: 100%;
+}
+
+.footer-container .footer-item svg {
+  font-size: 22px;
+}
+
+/* ALL TRANSACTION */
+.trans-row {
+  display: flex
+}
+
+.trans-row svg {
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 18px;
+  position: relative;
+  top: -1.3px;
+}
+
+/* TRANSACTION MODAL */
+.tabs-container {
+  display: flex;
+}
+
+.tab-radio {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tab-radio:hover {
+  background-color: #f8f9fa;
+}
